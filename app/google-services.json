@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "459082366937",
+    "project_id": "safe-street-2c471"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459082366937:android:f9e275be13fe520f",
+        "android_client_info": {
+          "package_name": "in.ac.iitb.cse.carts.safestreet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459082366937-vkelb95n7ki9a3cva758mhlvptlp3t3t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.iitb.cse.carts.safestreet",
+            "certificate_hash": "FB02CEEC33208BAD387FAAB67EB61EF07857E894"
+          }
+        },
+        {
+          "client_id": "459082366937-ub6t5fpi06nkmhfad86u6oqnle8optq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXjdfW_OpFTjwzkC_WW2mbcGpqZhcNmc0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
