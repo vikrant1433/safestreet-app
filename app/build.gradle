@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'SafestreetAppKey'
             keyPassword 'carts_2016'
-            storeFile file('/home/anupreet/keystores/safestreet.jks')
+            storeFile file('/home/vikrant/Dropbox/mtp_phase_1/carts_install/keystores/safestreet.jks')
             storePassword 'safestreet_smoothroad'
         }
     }
