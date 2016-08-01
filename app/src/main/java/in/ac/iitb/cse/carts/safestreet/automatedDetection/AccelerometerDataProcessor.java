@@ -62,6 +62,10 @@ public class AccelerometerDataProcessor extends Thread {
                 metaDataManager.writeMetadata(map);
 
                 // Rename the file
+                /*
+                * avoid sending currentRideData file from sending while writing to it
+                * rename currentRideData.txt to {rideNo}.txt
+                * */
                 File oldName = new File(Config.dataDirectory + "/currentRideData.txt");
                 File newName = new File(Config.dataDirectory + "/" + fileCount + ".txt");
                 current_filename = Config.dataDirectory + "/" + fileCount + ".txt";
@@ -518,7 +522,7 @@ public class AccelerometerDataProcessor extends Thread {
                     countSpeed++;
             }
         }
-
+        // process data if more than 25% of data is above 10km/hr
         if ((float)countSpeed/(float)count > 0.25f) {
             // if start time is null for current ride then updating it
             if (rideDetails == null) {
